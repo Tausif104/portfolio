@@ -1,4 +1,9 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -6,7 +11,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-html, body, .banner {
+html,
+body,
+.banner {
     height: 100%;
 }
 
@@ -32,7 +39,7 @@ header {
     top: 0;
     width: 100%;
     height: 100%;
-    content: "";
+    content: '';
     z-index: -1;
     background-color: #222;
     opacity: 0.9;
@@ -57,15 +64,15 @@ header {
 }
 
 .banner-text h1 span {
-    color: #F9004D;
+    color: #f9004d;
 }
 
 header a.nav-link {
-    color: #fff!important;
+    color: #fff !important;
 }
 
 a.navbar-brand {
-    color: #fff!important;
+    color: #fff !important;
 }
 
 .section-padding {
@@ -120,7 +127,7 @@ section.about-section {
 }
 
 .about-tab .nav-link.active {
-    background-color: #F9004D;
+    background-color: #f9004d;
 }
 
 .about-tab .nav {
@@ -146,9 +153,9 @@ section.about-section {
 }
 
 .about-item:before {
-    content: "\f058";
-    font-family: "Font Awesome 5 free";
-    color: #F9004D;
+    content: '\f058';
+    font-family: 'Font Awesome 5 free';
+    color: #f9004d;
     font-weight: 900;
     position: absolute;
     left: 0;
@@ -159,7 +166,7 @@ section.about-section {
 }
 
 .boxed-btn {
-    background-color: #F8004D;
+    background-color: #f8004d;
     color: #fff;
     display: inline-block;
     padding: 15px 35px;
@@ -196,7 +203,7 @@ section.services {
 
 .service-icon-table i {
     font-size: 45px;
-    color: #F8004D;
+    color: #f8004d;
 }
 
 .service-icon-table {
@@ -225,7 +232,7 @@ section.services {
 
 .single-service-card:after {
     background-image: linear-gradient(to right, #f61b10, #ef0963);
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     top: 0;
@@ -295,7 +302,7 @@ section.services {
 }
 
 .project-filters ul li.active {
-    background-color: #F8004D;
+    background-color: #f8004d;
 }
 
 .single-project-item img {
@@ -405,8 +412,8 @@ section.contact {
     color: #fff;
 }
 
-.contact-form input[type=text], 
-.contact-form input[type=email], 
+.contact-form input[type='text'],
+.contact-form input[type='email'],
 .contact-form textarea {
     background-color: #000;
     padding: 15px;
@@ -415,8 +422,8 @@ section.contact {
     color: #fff;
 }
 
-.contact-form input[type=text]:focus, 
-.contact-form input[type=email]:focus, 
+.contact-form input[type='text']:focus,
+.contact-form input[type='email']:focus,
 .contact-form textarea:focus {
     box-shadow: none;
     background-color: #000;
@@ -464,4 +471,8 @@ footer {
 
 footer {
     padding: 100px 0;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: #f8004d;
 }

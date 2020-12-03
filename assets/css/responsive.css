@@ -1,0 +1,80 @@
+@media (max-width: 1199px) {
+    .banner-text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-text h1 {
+        font-size: 55px;
+    }
+    header {
+        background-color: #222;
+    }
+
+    li.nav-item {
+        text-align: center;
+    }
+    ul.social-media-icons {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    ul.social-media-icons li {
+        margin: 0 10px;
+    }
+    .about-thumbnail {
+        margin-bottom: 30px;
+    }
+    .about-thumbnail img {
+        max-width: 300px;
+    }
+    .about-text {
+        padding-left: 0px;
+    }
+
+    .section-padding {
+        padding: 100px 0;
+    }
+
+    .single-blog-card {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-text p {
+        font-size: 12px;
+    }
+    .banner-text h1 {
+        font-size: 30px;
+    }
+    .about-thumbnail img {
+        max-width: 235px;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .about-text h2 {
+        font-size: 30px;
+    }
+
+    .about-item h4 {
+        line-height: 1.8;
+    }
+    .section-title h3 {
+        font-size: 30px;
+    }
+    .project-filters ul li {
+        font-size: 15px;
+        margin: 0;
+    }
+    .footer-social-icons span {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+    footer {
+        padding: 50px 0;
+    }
+}
